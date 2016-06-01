@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车页面</title>
+		<link rel="stylesheet" type="text/css" href="../css/common/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/common/common2.css">
+		<link rel="stylesheet" type="text/css" href="../css/shopCart.css">
+		
+	</head>
+	<body>
+		<!--top部分-->
+		<div class="top"></div>
+		<!--头部-->
+		<div class="head">
+			<div class="logo">
+				<a href="index.html"><img src="../image/logo.gif"></a>
+			</div>
+			<div class="steps">
+				<ul>
+					<li>1.我的购物车</li>
+					<li>2.填写核对订单信息</li>
+					<li>3.成功提交订单</li>
+				</ul>
+			</div>
+		</div>
+		<!--主体-->
+		<div class="tlt">
+			<p>
+				<span><a href="#"><img src="../image/zhifu1.png"></a></span>
+				我的购物车&nbsp;<a href="#"><img src="../image/index/zixun.png"></a>
+			</p>
+		</div>
+		<!--主体内容-->
+		<div class="content">
+			<table id="tab_good_list" >
+				<tr class="tlte" style="background:#F3F3F3;">
+					<th class="th_1"></th>
+					<th class="th_2">商品</th>
+					<th class="th_3">风尚价</th>	  
+					<th class="th_4"><p class="dizhi">江西&nbsp;南昌市</p></th>
+					<th class="th_5">数量</th>
+					<th class="th_6">金额小计</th>
+					<th class="th_7"></th>
+				</tr>
+				<tr>
+					<td class="td_3" colspan="7">您的购物车暂时无任何商品，请尽快在风尚家庭购物选购商品吧！
+						<span><a href="index.html">继续购物</a></span>
+						<b><a href="index.html">返回首页</a></b>	
+					</td>
+				</tr>
+				<tr class="tlte1">
+					<td class="td_2" colspan="7">
+						<a href="#" id="detel_shoop"><img src="../image/detail/qinchu.png">清空购物车</a>
+						<p><span>¥</span>总计：</p>
+						<p><span>¥0</span>促销折扣：</p>
+						<div class="cart_price"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="td_2  total_price" colspan="7" >
+						<a href="#">你可获的积分：￥4.50</a>
+						<p><span>¥</span>总计(不含运费)： </p>
+						<div class="cart_price"></div>
+					</td>
+				</tr>	
+			</table>
+			<div class="car_js">
+				<a href="index.html" class="btn_shop">继续购物</a>
+				<i>填写送货地址 积分抵扣 优惠券使用 请点击-></i>
+				<a href="pay.html" class="btn_pay">去结算&gt;</a>
+			</div>
+		</div>
+		<!--footer部分-->
+		<div class="footer"></div>
+		
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/shopCart.js"></script>
+		<script src="../js/common2.js"></script>
+		<script src="../js/data_store.js"></script>
+	</body>
+</html>

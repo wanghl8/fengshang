@@ -1,0 +1,403 @@
+
+/*banner部分*/
+.banner{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;	
+}
+.bannerCenter{
+	margin-left: 240px;
+	float:left;
+	width:720px;
+	height:416px;
+	overflow:hidden;
+}
+/*轮播图部分*/
+.lunbo{
+	width: 720px;
+	height: 344px;
+	overflow: hidden;
+	position: relative;
+}
+.pic1{
+	width: 720px;
+	height: 344px;
+	overflow: hidden;
+}
+.pic1 ul{
+	width: 5040px;
+}
+.pic1 ul li{
+	width: 720px;
+	height: 344px;
+	float:left;
+}
+.lunbo .nav{
+	position: absolute;
+	left:530px;
+	bottom:10px;
+}
+.lunbo .nav li{
+	float:left;
+	margin-left:5px;
+	position: relative;
+}
+.lunbo .nav li span{
+	position: absolute;
+	top:5px;
+	left:9px;
+}
+.bannerRight{
+	float:left;
+    width:239px;
+    height:416px;
+}
+/*main部分*/
+/*!--内容--*/
+.main{
+	width:1198px;
+	height:344px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top: 10px;
+    border: #dddddd 1px solid;
+    border-top: #333 3px solid;
+}
+.mainLeft{
+	float:left;
+	width:238px;
+	height:344px;
+	border-right: #dddddd 1px solid;
+}
+.mainLeft h2{
+	line-height:36px;
+	text-align:center;
+}
+.mainLeft h2 img{
+	margin-top:9px;
+}
+.mainLeft dl{
+	text-align: center;
+}
+.mainLeft dl dd{
+	margin-top:10px;
+}
+.mainLeft dl dd p{
+	color:#d32402;
+}
+.mainCenter{
+	float:left;
+	width:720px;
+	overflow: hidden;
+}
+.mainCenter h2{
+	line-height:40px;
+    padding-left:20px;
+    padding-right:12px;
+    border-bottom:#dddddd 1px solid;
+    background:url(../image/index/pa_hdm1.gif) no-repeat 40px top ;
+}
+/*TV热播部分*/
+.rebo{
+	overflow: hidden;
+	width:720px;
+}
+.reboLeft{
+	float: left;
+    width: 239px;
+    overflow:hidden;
+}
+.reboLeft dl{
+	margin:10px;
+	height:144px;
+	border-bottom:  1px solid #dddddd;
+}
+.reboLeft dl dt{
+	float: left;
+	margin-right:20px;
+}
+.reboLeft dl dd a{
+    line-height:22px;
+    color: #333333;
+}
+.reboLeft dl dd p{
+	color:#d32402;
+}
+.reboLeft dl dd b{
+	color: #FFFFFF;
+	margin-top:20px;
+	line-height:30px;
+    background-color: #d32402;
+    padding:4px;
+}
+.reboCenter{
+	width:216px;
+	float:left;
+	height:309px;
+	border-left:1px solid #dddddd;
+	border-right:#dddddd 1px solid;
+}
+.reboCenter dl {
+	text-align: center;
+}
+.reboCenter dl dt{
+	margin-bottom:15px;
+}
+.reboCenter dl dd a{
+    line-height:22px;
+    color: #333333;
+}
+.reboCenter dl dd p{
+	color:#d32402; ;
+}
+.reboCenter dl dd b{
+	color: #FFFFFF;
+	margin-top:20px;
+	line-height:30px;
+    background-color: #d32402;
+    padding:4px;
+}
+.reboRight{
+	float: left;
+    width: 239px;
+    overflow:hidden;
+    text-align: center;
+}
+.reboRight dl{
+	margin-top:9px;
+	margin-left:20px;
+	height:145px;
+	border-bottom: 1px solid #dddddd;
+}
+.reboRight dl dt{
+	float: left;
+	margin-right:15px;
+}
+.reboRight dl dd a{
+    line-height:22px;
+    color: #333333;
+}
+.reboRight dl dd p{
+	color:#d32402; ;
+}
+.reboRight dl dd b{
+	color: #FFFFFF;
+	margin-top:20px;
+	line-height:30px;
+    background-color: #d32402;
+    padding:4px;
+}
+/*风尚头条*/
+.mainRight{
+	float:right;
+	width:238px;
+	height:348px;
+	border-left:#dddddd 1px solid;
+}
+.mainRight h2{
+	line-height:36px;
+	text-align:center;
+}
+.mainRight dl{
+	float: left;
+    width: 228px;
+    border: #ddd 1px solid;
+    padding: 12px 0;
+    overflow: hidden;
+    margin: 10px 0 10px 7.5px;
+}
+.mainRight dl dt{
+	float:left;	
+}
+.mainRight dl dd{
+	line-height:21px;
+	color:#d00000;
+	}
+.mainRight dl dd a{
+	color: #333333;
+}
+.mainRight dl dd a:hover{
+	color:#d00000;
+}
+.mainRight p{
+	width:200px;
+	margin-left:20px;
+	line-height:21px;    
+}
+.mainRight p a{
+	color: #999999;
+}
+.mainRight p a:hover{
+	text-decoration: underline;
+}
+/*图片*/
+.tu{
+	width:1200px;
+	margin: 10px auto;
+}
+/*楼梯*/
+.louti{
+	position:fixed;
+	top:40%;
+	right:50%;
+	margin-right:605px;
+	font-size:12px;
+}
+.louti ul{
+	width:30px;
+	border:1px solid #000000;
+	text-align:center;
+}
+.louti ul li{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dotted #999999;	
+	position:relative;
+}
+.louti ul li.last{
+	background:darkred;
+	border-bottom:none;
+	color:#FFFFFF;
+}
+.louti ul li span{
+	display:none;
+	width:30px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.louti ul li span.active{
+	display:block;
+	background:darkred;	
+	color:#FFFFFF;
+}
+.louti ul li:hover span.active{
+	display:block;
+	background:#FFFFFF;
+	color:darkred;
+}
+.content{
+	width:1200px;
+	margin:0 auto;
+	}
+.jisju{
+	height:400px;
+	background:greenyellow;
+}
+
+/*楼梯*/
+.loutiNav{
+	position:fixed;
+	top:30%;
+	right:50%;
+	font-size:12px;
+	margin-right:601px;
+}
+.loutiNav ul{
+	width:28px;
+	border:1px solid #000000;
+	text-align:center;
+}
+.loutiNav ul li{
+	height:28px;
+	line-height:28px;
+	border-bottom:1px dotted #999999;	
+	position:relative;
+}
+.loutiNav ul li.last{
+	background:darkred;
+	border-bottom:none;
+	color:#FFFFFF;
+}
+.loutiNav ul li span{
+	display:none;
+	width:28px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.loutiNav ul li span.active{
+	display:block;
+	background:darkred;	
+	color:#FFFFFF;
+}
+.loutiNav ul li:hover span.active{
+	display:block;
+	background:#FFFFFF;
+	color:darkred;
+}
+.content{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+	}
+#floor{
+	overflow: hidden;
+}
+#floor>h4{
+	width:1200px;
+    color: #ff5500;
+    font-size: 16px;
+    font-weight: bold;
+    height:32px;
+    border-bottom: 3px solid #ff5500;
+    line-height: 32px;
+    overflow: hidden;
+}
+#floor h4 span{
+	float:right;
+}
+#floor  span img{
+	margin-top:10px;
+}
+.floor_l{
+	width:239px;
+	float:left;
+}
+.floor_r{
+	float:left;
+	width:959px;
+	height:345px;
+	border: 1px solid #dddddd;	
+	border-top:none;
+}
+.floor_r h2{
+	line-height:36px;
+	background: url(../image/index/floor1.gif) no-repeat 50px top;
+	border-bottom:1px solid #dddddd;	
+}
+.floor_r h2 a{
+	margin:0 12px;
+	color: #999999;	
+}
+.floor_r h2 a:hover{
+	text-decoration: underline;
+}
+.floor_r h2 .a1{
+	color: #ff5500;
+}
+.floor_r .reboCenter1{
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+	border-left: 1px solid #dddddd;	
+}
+.reboCenter1 dl {
+	text-align: center;
+	height:299px;
+}
+.reboCenter1 dl dt{
+	margin-bottom:15px;
+	padding-left:10px;
+}
+.reboCenter1 dl dd{
+	text-align: left;
+	margin-left:20px;
+}
+.reboCenter1 dl dd a{
+    line-height:22px;
+    color: #333333;
+}
+.reboCenter1 dl dd p{
+	color:#d32402; ;
+}

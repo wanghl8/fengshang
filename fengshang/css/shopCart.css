@@ -1,0 +1,164 @@
+/*top部分*/
+.topc{width:900px;}
+.tico .ul1{
+	margin-left:370px;
+}
+/*head部分*/
+.head,.tlt,.content{
+	width: 900px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 200px;
+    height: 70px;
+    overflow: hidden;
+}
+.steps{
+	margin-top:22px;
+	float:right;
+	width:480px;
+	height:57px;
+	background:url(../image/cart_step.png) no-repeat left top;
+}
+.steps ul{
+	height:40px;
+	margin-top:17px;
+}
+.steps ul li{
+	float:left;
+	line-height:40px;
+	width:160px;
+	text-align: center;
+}
+/*主体*/
+.tlt p{
+	font-size: 24px;
+	line-height:40px;
+    font-weight: normal;
+}
+.tlt p span{
+	float:right;
+}
+.content{
+	margin-top:20px;
+	margin-bottom:20px ;
+}
+.content table{
+   border:1px solid #d2d2d2;
+}
+.tlte{
+	width:898px;
+	height:45px;
+	/*border-bottom: 2px solid #9e9e9e;*/
+	/*background:#F3F3F3;*/
+}
+.th_1{
+	width:100px;
+}
+.th_2{
+	width:320px;
+	text-align: left;
+}
+.th_3{
+	width:90px;
+	text-align: center;
+}
+.th_4{
+	width:130px;
+	text-align: center;
+}
+.th_4 .dizhi{
+	width:90px;
+	height:20px;
+	margin-left:10px ;
+	padding-top:3px;
+	background:#FFF;
+	border:1px solid #d2d2d2;
+}
+.th_5{
+	width:100px;
+	text-align: center;
+}
+.th_6{
+	width:120px;
+	text-align: center;
+}
+.th_7{
+	width:40px;
+	text-align: center;
+}
+.tlte1{
+	height:30px;
+	border:1px solid #d2d2d2;
+	}
+.td_2{
+	position: relative;
+}
+.td_2 a{
+	position: absolute;
+	left:10px;
+	top:7px;
+	color: #005ea7;
+}
+.td_2 a img{
+	vertical-align: middle;
+}
+.td_2 p{
+	margin-right:70px;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+}
+.td_2 p span{
+	float:right;
+	margin-left:80px;
+}
+.total_price{
+	border-top:1px solid #d2d2d2;
+	height:40px;
+	line-height:40px;
+	background:#F3F3F3;
+}
+.total_price a{
+	top:0px;
+	color:#333333;
+}
+.td_3{
+	height:40px;
+	border: 1px solid #d2d2d2;
+	text-align: center;
+}
+.td_3 a{
+	color: #999999;
+}
+.car_js{
+	margin-top: 20px;
+	height:65px;
+    overflow: hidden;
+}
+.btn_shop{
+	float: left;
+    width: 94px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #000;
+    text-align:center;
+    background-position: 0 0;
+    background-color: #f6f6f6;
+    margin-right:390px;
+}
+.btn_pay{
+	float: right;
+    width: 175px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 5px;
+    background-position: -94px 0;
+    background: #d32402;
+}

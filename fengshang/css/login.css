@@ -1,0 +1,143 @@
+/*topt部分*/
+.top{
+	width:900px;
+	margin:0 auto;
+	border-bottom: 1px solid #000;
+	}
+.top dl{
+	width:393px;
+	height:62px;
+	margin:30px 0;;
+	}
+.top dl dt{
+	float:left;
+	
+	}
+.top dl dd{
+	padding-top:10px;
+	}
+/*content部分*/
+#content{
+	width:895px;
+	height:423px;
+	margin:10px auto 0;
+	padding-bottom:70px;
+	}
+.contentLeft{
+	float:left;
+	}
+.contentRight{
+	float:left;
+	}
+/*用户名*/
+.userName{
+	margin-top:20px;
+}
+.userName dt p{
+	line-height:22px;
+}
+.userName  dd input{
+	background:url(../image/yhm.gif) no-repeat;
+	padding-left:5px;
+	width:307px;
+	height:34px;
+	margin-top:5px;
+} 
+/*密码*/
+.passWord{
+	margin-top:20px;
+}
+.passWord dt {
+	width:307px;
+	line-height:22px;
+}
+.passWord dt p span{
+	display:inline-block;
+	text-align:center;
+	float:right;
+	width:96px;
+	height:26px;
+	background:#e0e0e0;
+	border:1px solid #999;
+}
+.passWord dt p span input{
+	background:#e0e0e0;
+
+	}
+.passWord  dd input{
+	background:url(../image/mm.gif) no-repeat;
+	padding-left:5px;
+	width:307px;
+	height:36px;
+} 
+/*登陆*/
+.login{
+	margin-top:20px;
+	}
+.login dt {
+	width:309px;
+	line-height:22px;
+}
+.login dt p span{
+	float:right;
+	}
+.login dt p span a:hover{
+	text-decoration:underline;
+	}
+.login dt p a{
+	color:#999999;
+	}
+.login dt p a:hover{
+	text-decoration:underline;
+	}
+.login  dd input{
+	margin-top:10px;
+	width:307px;
+	height:42px;
+	color:#FFF;
+	font-size:20px;
+	text-align:center;
+	letter-spacing:15px;
+	background:#d32402;
+	border-radius:5px;
+	cursor:pointer;
+} 
+.login  dd p{
+    width: 287px;
+    padding: 10px;
+    color: #666;
+    margin: 20px 0;
+    line-height: 20px;
+    border:1px solid #ddd;
+	}
+.login  dd span{
+	margin-top:20px;
+	}
+.login  dd span img{
+	margin-top:5px;
+	}
+/*footer部分*/
+.footer{
+	padding:30px 0;
+	width:100%;
+	border-top:1px solid #dddddd;
+	}
+.footerc{
+	width:1200px;
+	margin:0 auto;
+	color: #999999;
+	}
+.footerc p{
+	text-align:center;
+	line-height:24px;
+	}
+.footerc p a{
+	color: #999999;
+}
+.footerc p a:hover{
+	text-decoration: underline;
+}
+.footerc p span{
+	color: #C62717;
+    font-weight: bold;
+	}

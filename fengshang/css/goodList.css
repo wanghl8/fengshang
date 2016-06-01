@@ -1,0 +1,378 @@
+/*列表内容*/
+.content{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.content .p1{
+	float: left;
+    width: 1198px;
+    line-height: 38px;
+    background: #eeeeee;
+    color: #999;
+    border: #dddddd 1px solid;
+}
+.content .p1 b{
+	margin-left:20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content .p1 b a{
+	color: #666666;
+}
+.content .p1 span{
+	margin-left:10px;
+}
+.content .p1 span a{
+	color: #999;
+}
+.contentLeft{
+	width:238px;
+	float:left;
+	overflow:hidden;
+}
+/*菜单1*/
+.jiaju{
+	margin-top: 10px;
+    width: 236px;
+    border: 1px solid #dddddd ;
+    padding-bottom: 10px;
+    background: #eeeeee;
+    overflow:hidden;
+}
+.jiaju h3{
+	padding-left: 20px;
+	line-height: 43px;
+	text-align: center;
+	background:url(../image/list-li1.gif) no-repeat;
+}
+.jiaju p{
+	height:80px;
+	line-height:40px;
+	padding-left:20px;
+	background:#FFF;
+}
+.jiaju p a{
+	color: #333333;
+    margin-right:20px;
+}
+/*家居生活热销榜*/
+.rexiao{
+	border:1px solid #ddd;
+	padding-bottom:10px;
+	overflow: hidden;
+}
+.rexiao dl{
+	width:220px;
+	margin:10px 0 0 10px;
+	overflow: hidden;
+}
+.rexiao dl dt{
+	float:left;
+	width:60px;
+	height:60px;
+	overflow:hidden;
+	position:relative;
+}
+.rexiao dl dt p{
+	width:15px;
+	height:16px;
+	background:url(../image/list/dtbj.gif) no-repeat;
+	text-align:center;
+	line-height:13px;
+	color:#fff;font-size:9px;
+	position:absolute;
+	top:0px;left:0px;
+}
+.rexiao dl dd{
+	float:left;width:135px;padding-left:8px;color:#464646;line-height:18px;
+}
+.rexiao dl dd a{
+	font-size:11px;
+	color:#999;
+	}
+.rexiao dl dd a:hover{
+	color:#903;
+	text-decoration:none;
+	}
+.rexiao dl dd span{
+	font-size:9px;
+	}
+/*主要内容*/
+.contentRight{
+	width:950px;
+	float:right;
+	overflow: hidden;
+}
+.tlt1{
+	margin-top:10px;
+	height: 34px;
+    line-height: 34px;
+    background: #eeeeee;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    padding-left: 20px;
+    border: #dddddd 1px solid;
+}
+.remai{
+	overflow:hidden;
+}
+.remai dl{
+	float: left;
+    width: 228px;
+    border: #ddd 1px solid;
+    padding: 12px 0;
+    overflow: hidden;
+    margin: 10px 0 10px 7.5px;
+}
+.remai dl dt{
+	float:left;	
+}
+.remai dl dd{
+	line-height:21px;
+	color:#d00000;
+	}
+.remai dl dd a{
+	color: #333333;
+}
+.remai dl dd a:hover{
+	color:#d00000;
+}
+/*商品筛选*/
+.select{
+	overflow: hidden;
+	height:70px;
+}
+.select dl{
+	float:left;
+	padding-top:10px;
+	width:860px;
+	height:75px;
+	overflow: hidden;
+	
+}
+.select dl dt{
+	float:left;
+	width:74px;
+	height:300px;
+	margin-top:10px;
+	text-align: center;
+}
+.select dl dd b {
+	display:inline-block;
+	line-height:30px;
+	width:140px;
+	text-align: center;
+	}
+.select dl a{
+	color:#f1320a;
+}
+.select dl a:hover{
+	background:#f1320a;
+	color:#FFF;
+}
+.select p{
+	padding-left:10px;
+	margin-top:20px;
+	width:80px;
+	float:right;
+}
+.select p a img{
+	margin-top:5px;
+}
+/*list主要内容头部*/
+.choose{
+	overflow: hidden;
+	border-bottom:1px dotted #ddd;
+	margin-bottom:10px;
+	}
+.choose dl dt{
+	float:left;color:#333;
+	}
+.choose dl dd{
+	float:left;
+	width:135px;
+	height:26px;
+	line-height:26px;
+	font-size:11px;
+	}
+.choose dl dd a{
+	color:#f1320a;
+	}
+.choosing{
+	height:31px;
+	border:1px solid #ddd;
+	background:#f5f5f5;
+	margin-bottom:10px;
+	}
+.choosing h3{
+	float:left;
+	height:31px;
+	border-right:1px solid #ddd;
+	font-size:11px;
+	line-height:31px;
+	}
+.choosing h3.txt1{
+	width:200px;
+	padding-left:10px;
+	}
+.choosing h3.txt1 select{
+	width:104px;
+	height:22px;
+	}
+.choosing h3.txt2{
+	width:200px;
+	}
+a.mr:link,a.mr:visited,a.mr:active{
+	display:inline-block;
+	float:left;
+	height:24px;
+	width:42px;
+	background:#f1320a;
+	color:#fff;
+	text-align:center;
+	line-height:24px;
+	margin:3px 0 0 9px;
+	text-decoration:none;
+	}
+a.px:link,a.px:visited,a.px:active{
+	display:inline-block;
+	float:left;
+	background:url(../image/list/px.gif) no-repeat right center;
+	padding:3px 13px 3px 9px;
+	line-height:24px;color:#333;
+	text-align:center;
+	text-decoration:none;
+	}
+.choosing h3.txt3{
+	width:115px;
+	}
+.choosing h3.txt3 input{
+	width:41px;
+	height:20px;
+	margin-left:5px;
+	}
+.choosing h3.txt4{
+	width:190px;
+	margin-left:10px ;
+	}
+.choosing h3.txt5{
+	width:61px;
+	}
+.choosing h3.txt5 img{
+	margin:3px 5px;
+}
+.choosing h3.txt5 .img1 img{
+	margin-top:10px;
+}
+.choosing h3.txt6{
+	padding-left:5px;
+	border-right:none;
+	}
+.choosing h3.txt6 span{
+	color:#f1320a;
+}
+/*list主要内容头部*/
+.dlbox{
+	overflow: hidden;
+}
+.dlbox dl{
+	width:228px;
+	height:358px;
+	border:1px solid #ddd;
+	float:left;
+	margin:0 10px 10px 0;
+	position: relative;
+	}
+.dlbox dl p{
+	width: 53px;
+	height: 53px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.dlbox dl dt{
+	width:228px;
+	height:230px;
+	text-align:center;
+	}
+.dlbox dl dt a{
+	display:inline-block;
+	vertical-align:middle;
+	}
+.dlbox dl dt a img{
+	display:block;
+	}
+.dlbox dl dt span{
+	display:inline-block;
+	vertical-align:middle;
+	width:0;height:100%;
+	}
+
+.dlbox dl dd{
+	font-size:12px;
+	line-height:24px;
+	color:#333;
+	padding:0 10px;
+	}
+.dlbox dl dd a{
+	color:#333;
+	}
+.dlbox dl dd span{
+	background:#ff6600;
+	color:#fff;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+	}
+.dlbox dl dd i{
+	color:#f1320a;
+	margin-left:5px;
+	}
+.dlbox dl dd b{
+	color:#d00000;
+	font-weight:bold;
+	}
+.dlbox dl dd img{
+	float:right;
+	margin-top:24px;
+	}
+/*页码*/
+.num{
+	font-size:11px;
+	float:right;
+	margin:10px 0;
+	}
+.num a{
+	display:inline-block;
+	width:31px;
+	height:26px;
+	border:1px solid #ddd;
+	color:#61a5d6;
+	text-align:center;
+	line-height:26px;
+	}
+.num a:hover{
+	background:#f1310a;
+	color:#fff;
+	}
+.num a.next{
+	width:60px;
+	color:#333;
+	}
+.num input.txt{
+	width:30px;
+	margin:0 5px;
+	height:22px;
+	border:1px solid #ddd;
+	}
+.num input.btn{
+	width:44px;
+	height:26px;
+	border:1px solid #ddd;
+	background:#e8e8e8;
+	color:#656565;
+	}

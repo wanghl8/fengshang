@@ -1,0 +1,275 @@
+/*主体内容*/
+.DeTial_tlt,#DeTial_cont,.main{
+	width: 1198px;
+    margin:0 auto;
+	overflow: hidden;
+    
+}
+.DeTial_tlt{
+	background: #eeeeee;
+	border: #dddddd 1px solid;
+}
+.DeTial_tlt dl a{
+	line-height: 38px;
+	color: #999;
+}
+.DeTial_tlt dl dt a{
+	float: left;
+	margin-left:20px;
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+}
+.DeTial_tlt dl dd{
+	
+	float:left;
+	margin-left:20px;
+	padding-left:20px;
+	background:url(../image/detail/in_dhi.gif) no-repeat left center;
+}
+#DeTial_cont{
+	margin-top:10px;
+}
+
+/*图片放大镜样式*/
+.jqzoom{
+	float:left;
+	border:none;
+	position:relative;
+	padding:0px;
+	cursor:pointer;
+	margin:0px;
+	display:block;
+	border:1px solid #aaa;
+	}
+.zoomdiv{
+	z-index:100;
+	position:absolute;
+	top:0px;left:0px;
+	width:478px;
+	height:478px;
+	background:#ffffff;
+	border:1px solid #CCCCCC;
+	display:none;
+	text-align:center;
+	overflow:hidden;
+	}
+.jqZoomPup{
+	z-index:10;
+	visibility:hidden;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:20px;
+	height:20px;
+	border:1px solid #aaa;
+	background:#ffffff;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+	}
+
+/*图片小图预览列表*/
+.spec-scroll{
+	clear:both;
+	margin-top:2px;
+	width:479px;
+	}
+.spec-scroll .prev{
+	float:left;
+	margin-right:4px;
+	}
+.spec-scroll .next{
+	float:right;
+	}
+.spec-scroll .prev,.spec-scroll .next{
+	display:block;
+	text-align:center;
+	margin-top:2px;
+	width:10px;height:54px;
+	line-height:54px;
+	border:1px solid #CCC;
+	background:#EBEBEB;
+	}
+.spec-scroll .items{
+	float:left;
+	position:relative;
+	width:377px;
+	height:56px;
+	margin-top:2px;
+	overflow:hidden;
+	}
+.spec-scroll .items ul{
+	margin-left:60px;
+	position:absolute;
+	width:999999px;
+	height:56px;
+	}
+.spec-scroll .items ul li{
+	float:left;
+	width:64px;
+	text-align:center;
+	}
+.spec-scroll .items ul li img{
+	border:1px solid #CCC;
+	padding:2px;
+	width:50px;
+	height:50px;
+	}
+.spec-scroll .items ul li img:hover{
+	border:2px solid #FF6600;
+	padding:1px;
+	}
+.DeTial_cont_c{
+	float:left;
+	width:400px;
+	padding:5px 20px;
+	height:468px;
+	margin-left:10px;
+}
+.DeTial_cont_c h2{
+	width:400px;
+    font-size: 16px;
+    color: #333333;
+   	line-height:50px;
+    font-weight: bold;
+    border-bottom:1px solid #ddd;
+}
+.DeTial_cont_c b{
+	display: block;
+	margin:10px 0;
+}
+.DeTial_cont_c i{
+	width:400px;
+	display: block;
+	padding-bottom:10px;
+	border-bottom:1px solid #ddd;
+}
+.DeTial_cont_c i span{
+	color: #f1320a;
+    font-size: 22px;
+}
+.DeTial_cont_c  p img{
+	width:400px;
+}
+.DeTial_cont_c  p {
+	margin-top:10px;
+	line-height:23px;
+	color:#333333;
+}
+.DeTial_cont_c  p span{
+	color: #f37b15;
+    font-weight: bold;
+}
+.DeTial_cont_c .dizhi a{
+	border:1px solid #ddd;
+	height:23px;
+	padding:3px;
+	width:70px;
+	margin:0 5px;
+	color:#333333;
+	text-align: center;	
+}
+.DeTial_cont_c .shu input{
+	width:20px;
+	text-align: center;
+	border:1px solid #ddd;
+	height:23px;
+}
+.DeTial_cont_c img{
+	margin-top:10px;
+}
+.DeTial_cont_r{
+	float:right;
+}  
+/*.DeTial_cont_c input{
+	border:1px solid #333333;
+	margin-top:30px	
+}*/
+/*商品详情内容*/
+.main{
+	margin-top:20px;
+}
+.main_l{
+	float:left;
+	width:228px;	
+	}
+.main_l h2{
+    width: 218px;
+    line-height: 38px;
+    font-weight: bold;
+    margin-top:10px;
+    font-size: 14px;
+    padding-left: 10px;
+    background: #f7f7f7;
+    color: #333333;
+    border: 1px solid #dddddd;
+    border-bottom:none;
+}
+.main_l p{
+	height:70px;
+	width: 228px;
+	border:1px solid #dddddd;
+}
+.main_l p a{
+	margin-left:20px;
+	line-height:30px;
+	color: #666666;
+}
+.dls{
+	width: 228px;
+	border:1px solid #dddddd;
+}
+.dls dl{
+	width: 191px;
+    margin-left: 24px;
+    text-align: center;
+    margin-top: 15px;
+    border-bottom: 1px dotted #dddddd;
+}
+.dls dl dd{
+	margin-top:15px;
+	line-height:23px;
+}
+.main_r{
+	float:right;
+	width:948px;
+	}
+.xnav{
+	margin-top:10px;
+	}
+.xnav ul{
+	height: 38px;
+	width:948px;
+	border:#dddddd 1px solid;
+	background:darkred;
+}
+.xnav ul li{
+	float: left;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    padding:0 20px;
+    border-right: #dddddd 1px solid;
+    color: #999999;
+}
+.xnav ul li a{
+	color:#fff;
+}
+.li_cont{
+	width:948px;
+	text-align: center;
+	border: 1px solid #dddddd;	
+}
+.li_cont p{
+	margin-top:5px;
+	text-align:center;
+}
+#cont1{
+	display:block;
+}
+
+#cont2{
+	display:none;
+}

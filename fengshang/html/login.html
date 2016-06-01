@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+		<link rel="stylesheet" type="text/css" href="../css/common/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/login.css">
+	</head>
+	<body>
+		<!--top部分 -->
+		<div class="top">
+			<dl>
+				<dt><a href="index.html"><img src="../image/logo.gif"></a></dt>
+				<dd><a href="#"><img src="../image/biaoyu-huanyingdenglu.png"></a></dd>
+			</dl>
+		</div>
+		<!--content部分-->
+		<div id="content">
+			<div class="contentLeft">
+				<img src ="../image/20140604175159.png" alt="" />	
+			</div>
+			<form id="loginForm">
+				<div class="contentRight">
+					<dl class="userName">
+						<dt><p>手机或邮箱或会员编号</p></dt>
+						<dd><input type="text" value="" id="username" name="username"/></dd>
+					</dl>
+					<dl class="passWord">
+						<dt>
+							<p>密码或短信登录码
+								<span><input type="button" value="发送短信登录码" /></span>
+							</p>
+						</dt>
+						<dd><input type="password" value="" name="password"/></dd>
+					</dl>
+					<dl class="login">
+						<dt>
+							<p>
+								<span><a href="register.html">免费注册</a></span>
+								<input type="checkbox"/>自动登录
+								<a href="#"> 忘记密码?</a>
+							</p>
+						</dt>
+						<dd><a href="#"><input type="text" value="登录" id="login_btn"/></a></dd>
+						<dd>
+							<p>说明：<br />如果您不清楚或忘记密码都可以使用“发送短信登录码”来继续登录</p>
+							<span>使用合作网站帐号登录：<br /><img src="../image/alipay.png"></span>
+						</dd>
+					</dl>
+				</div>
+			</form>	
+		</div>
+	<!--footer部分-->
+	<div class="footer"></div>
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../lib/jquery.validate-1.13.1.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/login.js"></script>
+	</body>
+</html>
