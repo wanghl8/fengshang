@@ -4,11 +4,18 @@
 	loadHtml("common/header.html","head");
 	loadHtml("common/nav.html","navigate");
 	loadHtml("common/link.html","link");
-	loadHtml("common/footer.html","footer");	
+	loadHtml("common/footer.html","footer");
+	var islogin=$.cookie("islogin");
+	var login = $.cookie("register");
+    var login_x = JSON.parse(login);
+    if("ture"==islogin){
+    	$(".denglu").html(login_x.user_name);
+    }
 });
 
 /*二级菜单*/
 ;$(function(){
+
 	/*移入移出效果*/
 	$(".manus>ul>li").hover(function(){
 		$(this).find(".manu1").toggle();	

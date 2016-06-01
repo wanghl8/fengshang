@@ -51,9 +51,21 @@ var validator;
             return this.optional(element) || (mobile.test(value));  //判断是否指定了required
         }, $.validator.format("请填写正确的{0}位手机号~")); //取到规则里写的值
 
-        $("#login_btn").click(function () {
+       /* $("#login_btn").click(function () {
             alert($("#loginForm").valid() ? "填写正确" : "填写错误");
             location.href = "index.html";
-        });
+        });*/
+        /*获取cookie信息*/
+       var login = $.cookie("register");
+       var login_x = JSON.parse(login);
+       $("#login_btn").click(function(){
+       		var login_name=$("#username").val();
+       		var login_word=$("#password").val();
+       		if(login_name==login_x.user_name && login_word==login_x.pass_word){
+       			alert("登陆成功");
+       			$.cookie("islogin","ture", {expires:7,path:'/'})
+       			location.href = "index.html";
+       		}		
+       })
     });
 

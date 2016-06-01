@@ -5,6 +5,7 @@ $(function(){
 });
 /*购物车效果*/
 ;$(function(){
+	var sum = 0;
 	var tab_obj = $("#tab_good_list");
 	var aCookie = document.cookie.split(";");  
 	if(aCookie.length>0){
@@ -23,12 +24,23 @@ $(function(){
 		                 " <td class='th_5'>"+rowdata.number_+"</td>"+
 		                 " <td class='th_6'>￥"+parseInt(rowdata.price.replace(/¥/g,''))*parseInt(rowdata.number_)+"</td>"+
 		                 " <td class='th_7'><a>收藏</a></br>"+
-		                 "                  <a>删除</a>     "+
+		                 "                  <a onclick='javascript:del_operate(this);'>删除</a>     "+
 		                 "                 <input type='hidden' name='pk' value="+rowdata.pk+"></input>   </td> "+
 		           "</tr>");
             $(".tlte").after(tr);
-	}	
-	/*$("#detel_shoop").click(function(){
-		
-	});*/
+            
+            sum +=parseFloat(parseInt(rowdata.price.replace(/¥/g,''))*parseInt(rowdata.number_));
+	}
+	
+	$("#sum1").html("¥"+sum);
+	$("#sum2").html("¥"+sum);
+	
 });
+
+function del_operate(obj){
+	var tr=$(obj).parent().parent();
+	var pk =$(tr).find("input[name='pk']").val();
+	delCookie(pk);
+	$("#tab_good_list tr:not(first)").remove();
+	window.location.reload();
+}

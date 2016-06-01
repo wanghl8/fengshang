@@ -87,7 +87,6 @@ $(function(){
 			return fasle;
 		}
 		
-		var date_ = new Date(); 
 		var good = {
 			"good_name":good_name,
 			"number_":number_,
@@ -97,11 +96,12 @@ $(function(){
 			"module":"无",
 			"shoop_name":"风尚自营",
 			"img_src":"../image/detail/img1.png",
-			"pk":date_.toGMTString()
+			"pk":code
 		}
 		
 		var str_good = JSON.stringify(good);
-		setCookie(date_.toDateString(),str_good);
+		setCookie(code,str_good);
+		//$.cookie(date_.toDateString(),str_good, {expires:7,path:'/'});
 		alert("【提示】加入购物车成功！！");	
 	})
 		

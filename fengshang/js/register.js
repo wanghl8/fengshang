@@ -58,10 +58,19 @@ $(document).ready(function () {
     $.validator.addMethod("mobile", function(value, element, params){
         var mobile = /^[1][3578]\d{9}$/;
         return this.optional(element) || (mobile.test(value));  //判断是否指定了required
-    }, $.validator.format("请填写正确的{0}位手机号~")); //取到规则里写的值
-
-    $("#lijizhuce").click(function () {
-        alert($("#demoForm").valid() ? "注册成功" : "填写错误");
-        location.href = "index.html";
-    });
+    }, $.validator.format("请填写正确的{0}位手机号~")); //取到规则里写的值；
+    
+	/*点击注册储存信息*/
+	$("#lijizhuce").click(function(){
+		var username=$("#username").val();
+		var password=$("#password").val();
+		var regist={
+			"user_name":username,
+			"pass_word":password
+		}
+		$.cookie("register", JSON.stringify(regist), {expires:7,path:'/'})
+			alert("注册成功");
+			location.href = "login.html";			
+	});
 });
+
