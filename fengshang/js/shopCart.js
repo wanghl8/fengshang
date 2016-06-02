@@ -8,9 +8,20 @@ $(function(){
 	var sum = 0;
 	var tab_obj = $("#tab_good_list");
 	var aCookie = document.cookie.split(";");  
-	if(aCookie.length>0){
-		$(tab_obj).find("tr").eq(1).remove();
+
+	//购物车有东西
+	if(aCookie.length>0&&aCookie[0].length>0){
+		$(tab_obj).find("tr").eq(1).hide();
+		$(tab_obj).find("tr").eq(2).show();
+		$(tab_obj).find("tr").eq(3).show();
+	//购物车为空	
+	}else{
+		$(tab_obj).find("tr").eq(1).show();
+		$(tab_obj).find("tr").eq(2).hide();
+		$(tab_obj).find("tr").eq(3).hide();
 	}
+
+	
 	for(var i=0;i<aCookie.length;i++){
 		var aCrumb = aCookie[i].split("=");  
 		var temp = unescape(aCrumb[1]);
@@ -35,12 +46,13 @@ $(function(){
 	$("#sum1").html("¥"+sum);
 	$("#sum2").html("¥"+sum);
 	
+	
+	
 });
 
 function del_operate(obj){
 	var tr=$(obj).parent().parent();
 	var pk =$(tr).find("input[name='pk']").val();
 	delCookie(pk);
-	$("#tab_good_list tr:not(first)").remove();
 	window.location.reload();
 }
