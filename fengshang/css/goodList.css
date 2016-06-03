@@ -121,6 +121,7 @@
 .remai dl{
 	float: left;
     width: 228px;
+    height: 170px;
     border: #ddd 1px solid;
     padding: 12px 0;
     overflow: hidden;

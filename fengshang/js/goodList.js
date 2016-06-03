@@ -31,6 +31,31 @@
 		
 		$(".jiaju p").slideToggle(200);											
 	});
+	
+	$(function(){
+		/*图片宽高改变*/
+		$(".remai dl").mouseover(function(){
+			$(this).find("dt").find("img").stop().animate({"width":"140px","height":"140px"},500);
+		})
+		$(".remai dl").mouseout(function(){
+			$(this).find("dt").find("img").stop().animate({"width":"133px","height":"133px"},500);
+		})
+		/*添加边框*/
+			$(".dlbox dl").mouseover(function(){
+				/*$(this).find("dt").find("img").stop().fadeTo("1000",0.5);*/
+				$(this).find("dt").find("img").css("border","4px solid #f0f");
+			});
+			$(".dlbox dl").mouseout(function(){
+				/*$(this).find("dt").find("img").stop().fadeTo("1000",1);*/
+				/*$(".dlbox dl dt").find("img").fadeTo("1000",1);*/
+				$(this).find("dt").find("img").css("border","none");
+			});
+			
+	});
+	
+	$(".clearfix dt").mouseover(function(){
+		$(".clearfix dt").find("img").animate({"left":"20px"},500);
+	})
 	/*商品筛选*/	
 	var m=$(".select p a");
 	var flag = false;

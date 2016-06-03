@@ -5,25 +5,26 @@
 	loadHtml("common/nav.html","navigate");
 	loadHtml("common/link.html","link");
 	loadHtml("common/footer.html","footer");
-	var islogin=$.cookie("islogin");
-	var login = $.cookie("register");
-    var login_x = JSON.parse(login);
-    if("ture"==islogin){
-    	$(".denglu").html(login_x.user_name);
-    }
-});
-
-/*二级菜单*/
-;$(function(){
-
-	/*移入移出效果*/
+	
+	/*二级菜单*/
+    /*移入移出效果*/
 	$(".manus>ul>li").hover(function(){
 		$(this).find(".manu1").toggle();	
 	});
-});
+	$(".bannerRight").mouseover(function(){
+		$(".bannerRight").fadeTo("500",0.5);
+	});
+	$(".bannerRight").mouseout(function(){
+		$(".bannerRight").fadeTo("500",1);
+	});
+/*图片定时显示*/
+setInterval(function(){
+		$(".tu img").toggle();
+	},500);
+		
 
-/*轮播图*/
-$(function(){
+	
+//轮播图
 	var index=0;
 	$(".nav li:first").find("img").attr("src","../image/index/y.png");
 	show();
@@ -56,10 +57,9 @@ $(function(){
 		img.attr("src","../image/index/y.png");
 		img.parent().siblings().find("img").attr("src","../image/index/y1.png");
 	};	
-});
-
-/*楼梯效果*/
-;$(function(){
+	
+	
+	//楼梯图效果
 	/*点击左侧楼梯导航，右侧滚动响应高度*/
 	var isClick=false;
 	$(".loutiNav ul li:not(:last)").click(function(){
@@ -91,4 +91,16 @@ $(function(){
 		}	
 	});
 
+
+	var islogin=$.cookie("islogin");
+	var login = $.cookie("register");
+    var login_x = JSON.parse(login);
+    if(null==islogin||""==islogin||null==login_x||""==login_x||undefined==islogin||undefined==login_x){
+    	return false;
+    }
+    if("ture"==islogin){
+    	$(".denglu").html(login_x.user_name);
+    	$(".tui").text("退出");
+    }
 });
+
