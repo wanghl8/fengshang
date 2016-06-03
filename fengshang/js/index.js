@@ -21,9 +21,7 @@
 setInterval(function(){
 		$(".tu img").toggle();
 	},500);
-		
-
-	
+			
 //轮播图
 	var index=0;
 	$(".nav li:first").find("img").attr("src","../image/index/y.png");
@@ -91,7 +89,10 @@ setInterval(function(){
 		}	
 	});
 
-
+	/*top部分我的订单*/
+	$(".tico").hover(function(){
+		$(".tico .ul1").toggle();
+	});
 	var islogin=$.cookie("islogin");
 	var login = $.cookie("register");
     var login_x = JSON.parse(login);
